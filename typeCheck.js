@@ -1,0 +1,1 @@
+const isFunc = (fn) => Object.prototype.toString.call(fn) === "[object Function]"
