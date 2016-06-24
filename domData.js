@@ -1,4 +1,4 @@
-const Data = {
+const DOMData = {
     get(dom, attr){
         if (dom && attr) {
             try{
@@ -21,4 +21,4 @@ const Data = {
     }
 }
 
-export default Data;
+export default DOMData;
